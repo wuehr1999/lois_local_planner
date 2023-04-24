@@ -1,0 +1,70 @@
+[0.024s] Invoking command in '/home/jonas/loisWS/lois_local_planner/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jonas/loisWS/lois_local_planner/build/local_planner -- -j16 -l16
+[0.110s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/plannerdata.cpp.o[0m
+[0.110s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/config.cpp.o[0m
+[0.111s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/planningalgorithm.cpp.o[0m
+[0.111s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/planner.cpp.o[0m
+[0.111s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/node.cpp.o[0m
+[0.111s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/trajectory.cpp.o[0m
+[0.114s] [ 77%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/timer.cpp.o[0m
+[0.114s] [ 88%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/main.cpp.o[0m
+[0.127s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/trajectory.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kplanner/trajectory.hpp: No such file or directory
+[0.127s]     1 | #include [01;31m[K<planner/trajectory.hpp>[m[K
+[0.127s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.128s] compilation terminated.
+[0.128s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/planningalgorithm.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kplanner/planningalgorithm.hpp: No such file or directory
+[0.128s]     1 | #include [01;31m[K<planner/planningalgorithm.hpp>[m[K
+[0.128s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.128s] compilation terminated.
+[0.129s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/planner.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kplanner/planner.hpp: No such file or directory
+[0.129s]     1 | #include [01;31m[K<planner/planner.hpp>[m[K
+[0.129s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.129s] compilation terminated.
+[0.130s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/plannerdata.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kplanner/plannerdata.hpp: No such file or directory
+[0.130s]     1 | #include [01;31m[K<planner/plannerdata.hpp>[m[K
+[0.130s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.130s] compilation terminated.
+[0.130s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/config.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kplanner/config.hpp: No such file or directory
+[0.130s]     1 | #include [01;31m[K<planner/config.hpp>[m[K
+[0.130s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.130s] compilation terminated.
+[0.132s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Klocal_planner/node.h: No such file or directory
+[0.132s]     1 | #include [01;31m[K<local_planner/node.h>[m[K
+[0.132s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.132s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/timer.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kplanner/timer.hpp: No such file or directory
+[0.132s]     1 | #include [01;31m[K<planner/timer.hpp>[m[K
+[0.132s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.132s] compilation terminated.
+[0.132s] compilation terminated.
+[0.135s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:104: CMakeFiles/local_planner_node.dir/src/plannerdata.cpp.o] Error 1
+[0.135s] gmake[2]: *** Waiting for unfinished jobs....
+[0.136s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:76: CMakeFiles/local_planner_node.dir/src/config.cpp.o] Error 1
+[0.136s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:90: CMakeFiles/local_planner_node.dir/src/planner.cpp.o] Error 1
+[0.136s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:132: CMakeFiles/local_planner_node.dir/src/planningalgorithm.cpp.o] Error 1
+[0.136s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:160: CMakeFiles/local_planner_node.dir/src/trajectory.cpp.o] Error 1
+[0.137s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:146: CMakeFiles/local_planner_node.dir/src/timer.cpp.o] Error 1
+[0.137s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:174: CMakeFiles/local_planner_node.dir/src/main.cpp.o] Error 1
+[3.158s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/node.cpp:[m[K In constructor ‘[01m[KPlannerNode::PlannerNode()[m[K’:
+[3.158s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/node.cpp:3:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[3.159s]     3 | PlannerNode::PlannerNode() : Node([01;31m[K)[m[K
+[3.159s]       |                                   [01;31m[K^[m[K
+[3.159s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.160s]                  from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/node.hpp:9[m[K,
+[3.160s]                  from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/node.cpp:1[m[K:
+[3.160s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[3.160s]  1294 |   [01;36m[KNode[m[K(
+[3.160s]       |   [01;36m[K^~~~[m[K
+[3.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[3.166s]   101 |   explicit [01;36m[KNode[m[K(
+[3.166s]       |            [01;36m[K^~~~[m[K
+[3.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[3.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[3.167s]    89 |   explicit [01;36m[KNode[m[K(
+[3.167s]       |            [01;36m[K^~~~[m[K
+[3.167s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.670s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:118: CMakeFiles/local_planner_node.dir/src/node.cpp.o] Error 1
+[3.670s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/local_planner_node.dir/all] Error 2
+[3.671s] gmake: *** [Makefile:146: all] Error 2
+[3.674s] Invoked command in '/home/jonas/loisWS/lois_local_planner/build/local_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jonas/loisWS/lois_local_planner/build/local_planner -- -j16 -l16

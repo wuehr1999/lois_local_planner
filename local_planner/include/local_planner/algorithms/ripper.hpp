@@ -1,7 +1,7 @@
 #ifndef ALGO_RIPPER
 #define ALGO_RIPPER
 
-#include <planner/planningalgorithm.hpp>
+#include <local_planner/planningalgorithm.hpp>
 
 /**
  @brief Implementation of Algorithm using two bounding boxes on the left and right side of the robot to push it away from a very near obstacle.

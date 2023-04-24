@@ -1,4 +1,4 @@
-#include <planner/config.hpp>
+#include <local_planner/config.hpp>
 
 std::string PlannerConfig::str()
 {

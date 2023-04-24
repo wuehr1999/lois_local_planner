@@ -1,0 +1,42 @@
+[0.025s] Invoking command in '/home/jonas/loisWS/lois_local_planner/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jonas/loisWS/lois_local_planner/build/local_planner -- -j16 -l16
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target local_planner_node[0m
+[0.124s] [ 11%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/planner.cpp.o[0m
+[0.124s] [ 33%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/config.cpp.o[0m
+[0.124s] [ 33%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/plannerdata.cpp.o[0m
+[0.125s] [ 44%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/timer.cpp.o[0m
+[0.125s] [ 55%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/node.cpp.o[0m
+[0.126s] [ 77%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/trajectory.cpp.o[0m
+[0.126s] [ 77%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/planningalgorithm.cpp.o[0m
+[0.127s] [ 88%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/main.cpp.o[0m
+[0.143s] In file included from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/planner.cpp:1[m[K:
+[0.143s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/planner.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[0.143s]     4 | #include [01;31m[K<ros/ros.h>[m[K
+[0.144s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.144s] compilation terminated.
+[0.144s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:90: CMakeFiles/local_planner_node.dir/src/planner.cpp.o] Error 1
+[0.144s] gmake[2]: *** Waiting for unfinished jobs....
+[0.145s] In file included from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/plannerdata.cpp:1[m[K:
+[0.145s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/plannerdata.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[0.145s]     3 | #include [01;31m[K<ros/ros.h>[m[K
+[0.145s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.145s] compilation terminated.
+[0.145s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:104: CMakeFiles/local_planner_node.dir/src/plannerdata.cpp.o] Error 1
+[0.257s] In file included from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/planningalgorithm.hpp:6[m[K,
+[0.257s]                  from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/planningalgorithm.cpp:1[m[K:
+[0.257s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/plannerdata.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[0.258s]     3 | #include [01;31m[K<ros/ros.h>[m[K
+[0.258s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.258s] compilation terminated.
+[0.259s] gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:132: CMakeFiles/local_planner_node.dir/src/planningalgorithm.cpp.o] Error 1
+[0.515s] In file included from [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/src/trajectory.cpp:1[m[K:
+[0.515s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:[m[K In member function ‘[01m[Kbool Trajectory::setCollided()[m[K’:
+[0.515s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:37:40:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.516s]    37 |   bool setCollided(){ collided = true; [01;35m[K}[m[K
+[0.516s]       |                                        [01;35m[K^[m[K
+[0.516s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:[m[K In member function ‘[01m[Kbool Trajectory::setCollided(double)[m[K’:
+[0.516s] [01m[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:43:79:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.516s]    43 |   bool setCollided(double colTime){ collided = true; this->colTime = colTime; [01;35m[K}[m[K
+[0.516s]       |                                                                               [01;35m[K^[m[K
+[3.607s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/local_planner_node.dir/all] Error 2
+[3.608s] gmake: *** [Makefile:146: all] Error 2
+[3.611s] Invoked command in '/home/jonas/loisWS/lois_local_planner/build/local_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jonas/loisWS/lois_local_planner/build/local_planner -- -j16 -l16

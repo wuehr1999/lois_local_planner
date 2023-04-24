@@ -1,7 +1,7 @@
 #ifndef DECISION_DISTANCE_HPP
 #define DECISION_DISTANCE_HPP
 
-#include <planner/decisionrule.hpp>
+#include <local_planner/decisionrule.hpp>
 
 /**
  @brief Rate trajectory based on euclidian distance to goal point

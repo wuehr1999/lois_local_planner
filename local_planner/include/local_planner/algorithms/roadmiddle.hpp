@@ -1,7 +1,7 @@
 #ifndef ALGO_ROADMIDDLE_HPP
 #define ALGO_ROADMIDDLE_HPP
 
-#include <planner/planningalgorithm.hpp>
+#include <local_planner/planningalgorithm.hpp>
 #include <Python.h>
 
 /**

@@ -2,7 +2,7 @@
 #define ALGO_RECOVERYBACK
 
 #include <unistd.h>
-#include <planner/planningalgorithm.hpp>
+#include <local_planner/planningalgorithm.hpp>
 
 /**
  @brief Implementation of blocking recovery algorithm driving the robot backwards slowly.

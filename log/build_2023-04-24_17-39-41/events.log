@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (local_planner) JobQueued: {'identifier': 'local_planner', 'dependencies': OrderedDict()}
+[0.001029] (local_planner) JobStarted: {'identifier': 'local_planner'}
+[0.019402] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'cmake'}
+[0.021243] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'build'}
+[0.021543] (local_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jonas/loisWS/lois_local_planner/build/local_planner', '--', '-j16', '-l16'], 'cwd': '/home/jonas/loisWS/lois_local_planner/build/local_planner', 'env': OrderedDict([('HOSTNAME', 'a552ecb9e29f'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jonas/loisWS/lois_kinematics/kinematics/install/kinematics/lib:/home/jonas/loisWS/lois_tf_listener/tf_listener/install/tf_listener/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/jonas/loisWS/lois_local_planner/local_planner'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jonas/loisWS/lois_tf_listener/tf_listener/install:/home/jonas/loisWS/lois_kinematics/kinematics/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jonas/loisWS/lois_kinematics/kinematics/install/kinematics:/home/jonas/loisWS/lois_tf_listener/tf_listener/install/tf_listener:/opt/ros/humble'), ('PWD', '/home/jonas/loisWS/lois_local_planner/build/local_planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jonas/loisWS/lois_kinematics/kinematics/install/kinematics:/home/jonas/loisWS/lois_tf_listener/tf_listener/install/tf_listener:/opt/ros/humble')]), 'shell': False}
+[0.066181] (local_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098213] (-) TimerEvent: {}
+[0.198908] (-) TimerEvent: {}
+[0.295550] (local_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299051] (-) TimerEvent: {}
+[0.337208] (local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.340671] (local_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.349323] (local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.364820] (local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.386794] (local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399203] (-) TimerEvent: {}
+[0.472215] (local_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.473910] (local_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499404] (-) TimerEvent: {}
+[0.599919] (-) TimerEvent: {}
+[0.660333] (local_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700063] (-) TimerEvent: {}
+[0.800540] (-) TimerEvent: {}
+[0.887751] (local_planner) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.897435] (local_planner) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.900642] (-) TimerEvent: {}
+[1.001090] (-) TimerEvent: {}
+[1.088143] (local_planner) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.101238] (-) TimerEvent: {}
+[1.201668] (-) TimerEvent: {}
+[1.229906] (local_planner) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.240822] (local_planner) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.301817] (-) TimerEvent: {}
+[1.402288] (-) TimerEvent: {}
+[1.502829] (-) TimerEvent: {}
+[1.603380] (-) TimerEvent: {}
+[1.703921] (-) TimerEvent: {}
+[1.707804] (local_planner) StdoutLine: {'line': b'-- Found tf_listener: 1.0.0 (/home/jonas/loisWS/lois_tf_listener/tf_listener/install/tf_listener/share/tf_listener/cmake)\n'}
+[1.708508] (local_planner) StdoutLine: {'line': b'-- Found kinematics: 1.0.0 (/home/jonas/loisWS/lois_kinematics/kinematics/install/kinematics/share/kinematics/cmake)\n'}
+[1.804086] (-) TimerEvent: {}
+[1.809897] (local_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.829653] (local_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[1.832071] (local_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/jonas/loisWS/lois_local_planner/build/local_planner\n'}
+[1.873618] (local_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target local_planner_node\x1b[0m\n'}
+[1.903883] (local_planner) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/config.cpp.o\x1b[0m\n'}
+[1.904474] (-) TimerEvent: {}
+[1.904793] (local_planner) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/node.cpp.o\x1b[0m\n'}
+[1.905081] (local_planner) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/planner.cpp.o\x1b[0m\n'}
+[1.905306] (local_planner) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/plannerdata.cpp.o\x1b[0m\n'}
+[1.908455] (local_planner) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/planningalgorithm.cpp.o\x1b[0m\n'}
+[1.908906] (local_planner) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/trajectory.cpp.o\x1b[0m\n'}
+[1.909158] (local_planner) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/main.cpp.o\x1b[0m\n'}
+[1.909331] (local_planner) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/timer.cpp.o\x1b[0m\n'}
+[2.004687] (-) TimerEvent: {}
+[2.105285] (-) TimerEvent: {}
+[2.205887] (-) TimerEvent: {}
+[2.306534] (-) TimerEvent: {}
+[2.341233] (local_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/src/trajectory.cpp:1\x1b[m\x1b[K:\n'}
+[2.341646] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Trajectory::setCollided()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.341786] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:37:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.341914] (local_planner) StderrLine: {'line': b'   37 |   bool setCollided(){ collided = true; \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.342036] (local_planner) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.342152] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Trajectory::setCollided(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.342269] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/trajectory.hpp:43:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.342383] (local_planner) StderrLine: {'line': b'   43 |   bool setCollided(double colTime){ collided = true; this->colTime = colTime; \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.342499] (local_planner) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.369841] (local_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/src/planner.cpp:1\x1b[m\x1b[K:\n'}
+[2.370490] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/planner.hpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/Image.hpp: No such file or directory\n'}
+[2.370710] (local_planner) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<sensor_msgs/msg/Image.hpp>\x1b[m\x1b[K\n'}
+[2.370880] (local_planner) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.371046] (local_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/planningalgorithm.hpp:6\x1b[m\x1b[K,\n'}
+[2.371254] (local_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/src/planningalgorithm.cpp:1\x1b[m\x1b[K:\n'}
+[2.371420] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/plannerdata.hpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/Image.hpp: No such file or directory\n'}
+[2.371586] (local_planner) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<sensor_msgs/msg/Image.hpp>\x1b[m\x1b[K\n'}
+[2.371748] (local_planner) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.371911] (local_planner) StderrLine: {'line': b'compilation terminated.\n'}
+[2.372072] (local_planner) StderrLine: {'line': b'compilation terminated.\n'}
+[2.372313] (local_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/src/plannerdata.cpp:1\x1b[m\x1b[K:\n'}
+[2.372482] (local_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jonas/loisWS/lois_local_planner/local_planner/include/local_planner/plannerdata.hpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/Image.hpp: No such file or directory\n'}
+[2.372666] (local_planner) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<sensor_msgs/msg/Image.hpp>\x1b[m\x1b[K\n'}
+[2.372829] (local_planner) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.372989] (local_planner) StderrLine: {'line': b'compilation terminated.\n'}
+[2.376405] (local_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:104: CMakeFiles/local_planner_node.dir/src/plannerdata.cpp.o] Error 1\n'}
+[2.376847] (local_planner) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.377040] (local_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:90: CMakeFiles/local_planner_node.dir/src/planner.cpp.o] Error 1\n'}
+[2.377213] (local_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/local_planner_node.dir/build.make:132: CMakeFiles/local_planner_node.dir/src/planningalgorithm.cpp.o] Error 1\n'}
+[2.406765] (-) TimerEvent: {}
+[2.507598] (-) TimerEvent: {}
+[2.608367] (-) TimerEvent: {}
+[2.709014] (-) TimerEvent: {}
+[2.809611] (-) TimerEvent: {}
+[2.910217] (-) TimerEvent: {}
+[3.010991] (-) TimerEvent: {}
+[3.111685] (-) TimerEvent: {}
+[3.212363] (-) TimerEvent: {}
+[3.313043] (-) TimerEvent: {}
+[3.413749] (-) TimerEvent: {}
+[3.514448] (-) TimerEvent: {}
+[3.615118] (-) TimerEvent: {}
+[3.715834] (-) TimerEvent: {}
+[3.816555] (-) TimerEvent: {}
+[3.917239] (-) TimerEvent: {}
+[4.017952] (-) TimerEvent: {}
+[4.118652] (-) TimerEvent: {}
+[4.219401] (-) TimerEvent: {}
+[4.320111] (-) TimerEvent: {}
+[4.420719] (-) TimerEvent: {}
+[4.521234] (-) TimerEvent: {}
+[4.622092] (-) TimerEvent: {}
+[4.722798] (-) TimerEvent: {}
+[4.823517] (-) TimerEvent: {}
+[4.924058] (-) TimerEvent: {}
+[5.024585] (-) TimerEvent: {}
+[5.125277] (-) TimerEvent: {}
+[5.225977] (-) TimerEvent: {}
+[5.326667] (-) TimerEvent: {}
+[5.408096] (local_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/local_planner_node.dir/all] Error 2\n'}
+[5.408665] (local_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.412927] (local_planner) CommandEnded: {'returncode': 2}
+[5.427014] (-) TimerEvent: {}
+[5.494066] (local_planner) JobEnded: {'identifier': 'local_planner', 'rc': 2}
+[5.495243] (-) EventReactorShutdown: {}

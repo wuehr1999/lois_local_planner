@@ -1,8 +1,8 @@
 #ifndef ALGO_TRAJECTORYROLLOUT_HPP
 #define ALGO_TRAJECTORYROLLOUT_HPP
 
-#include <planner/decisionrule.hpp>
-#include <planner/planningalgorithm.hpp>
+#include <local_planner/decisionrule.hpp>
+#include <local_planner/planningalgorithm.hpp>
 
 /**
  @brief Implementation of trajectory planner with constrainted yaw acceleration and y-Axis acceleration.

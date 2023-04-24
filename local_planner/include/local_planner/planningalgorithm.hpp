@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <planner/plannerdata.hpp>
+#include <local_planner/plannerdata.hpp>
 
 /**
  @brief Planning Algorithm base class

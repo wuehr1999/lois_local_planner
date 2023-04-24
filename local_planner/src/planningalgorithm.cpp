@@ -1,4 +1,4 @@
-#include <planner/planningalgorithm.hpp>
+#include <local_planner/planningalgorithm.hpp>
 
 PlanningAlgorithm::PlanningAlgorithm(std::string name, int id, int idRecovery, PlannerData* dat)
 {

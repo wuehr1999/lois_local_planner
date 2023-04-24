@@ -1,9 +1,9 @@
 #ifndef ALGO_DWA_HPP
 #define ALGO_DWA_HPP
 
-#include <planner/decisionrule.hpp>
-#include <planner/planningalgorithm.hpp>
-#include <planner/algorithms/trajectoryrollout.hpp>
+#include <local_planner/decisionrule.hpp>
+#include <local_planner/planningalgorithm.hpp>
+#include <local_planner/algorithms/trajectoryrollout.hpp>
 
 /**
  @brief Implementation of dynamic window approach.

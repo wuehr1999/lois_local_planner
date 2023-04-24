@@ -1,7 +1,7 @@
 #ifndef DECISION_YAW_HPP
 #define DECISION_YAW_HPP
 
-#include <planner/decisionrule.hpp>
+#include <local_planner/decisionrule.hpp>
 
 /**
  @brief Rate trajectory based on tangential angle to goal line
