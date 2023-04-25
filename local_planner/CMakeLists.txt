@@ -13,9 +13,15 @@ find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(tf_listener REQUIRED)
 find_package(kinematics REQUIRED)
+find_package(image_transport REQUIRED)
+find_package(lois_interfaces REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(PCL REQUIRED)
+find_package(pcl_conversions REQUIRED)
 
 include_directories(
   include
+  /opt/ros/humble/include
 )
 
 add_executable(${TARGET}
@@ -41,8 +47,17 @@ ament_target_dependencies(${TARGET}
     tf2_ros
     tf_listener
     kinematics
+    image_transport
+    lois_interfaces
+    OpenCV
+    pcl_conversions
 )
+#libpcl-conversions-dev
 
+include_directories(include ${OpenCV_INCLUDE_DIRS} ${PCL_INCLUDE_DIRS})
+link_directories(${OpenCV_LIBRARY_DIRS} ${PCL_LIBRARY_DIRS})
+add_definitions(${OpenCV_DEFINITIONS} ${PCL_DEFINITIONS})
+target_link_libraries(${TARGET} ${OpenCV_LIBRARIES} ${PCL_LIBRARIES})
 
 install(TARGETS
   ${TARGET}
